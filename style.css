@@ -493,28 +493,20 @@ ul{
 }
 
 @media (max-width: 450px){
-    .hero p, .video p, .party a, .app a, .food-menu a{
+    .video p, .party a, .app a, .food-menu a, .contact a{
         font-size: 16px !important;
     }
-    h2{
+    .hero h2, .video h2, .party h2, .app h2, .food-menu h2, .contact h2{
         font-size: 20px !important;
     }
-    h1{
+    .video h1, .party h1, .app h1, .food-menu h2, .contact h2{
         font-size: 24px !important;
+    }
+    .hero-text p{
+        font-size: 25px !important;
     }
     .app img{
         width: 100%;
-    }
-    .buttons{
-        display: flex;
-        flex-direction: column;
-    }
-    .buttons a{
-        width: fit-content;
-            margin-bottom: 10px !important;
-    }
-    .buttons i{
-        display: none !important;
     }
 }
 
